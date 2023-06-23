@@ -1,0 +1,186 @@
+{
+  "id": "39733e29-5852-4a8c-bbdd-25a99bc6a886",
+  "version": "2.0",
+  "name": "PZ6",
+  "url": "https://idemo.bspb.ru",
+  "tests": [{
+    "id": "7a09c533-7451-4096-b72e-30fb3de899f0",
+    "name": "Untitled",
+    "commands": [{
+      "id": "80d009b1-ac60-43c5-ad3d-93d907566f3a",
+      "comment": "",
+      "command": "open",
+      "target": "/auth?response_type=code&client_id=1&redirect_uri=https%3A%2F%2Fidemo.bspb.ru%2Flogin%2Fsuccess&prefetch_uri=https%3A%2F%2Fidemo.bspb.ru%2Flogin%2Fprefetch&force_new_session=true",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ba23fa9-cc8d-44ed-a128-84ad1c751c65",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1468x886",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab41fa22-7051-419e-9f68-22fd87e1d8fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33e74bf5-7995-4ce8-b14f-d1c1c9ac7763",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-otp-button",
+      "targets": [
+        ["id=login-otp-button", "id"],
+        ["css=#login-otp-button", "css:finder"],
+        ["xpath=//button[@id='login-otp-button']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ea9d58f-28a2-4a02-8f2e-546a1352e15f",
+      "comment": "",
+      "command": "click",
+      "target": "id=cards-overview-index",
+      "targets": [
+        ["id=cards-overview-index", "id"],
+        ["css=#cards-overview-index", "css:finder"],
+        ["xpath=//a[contains(text(),'Карты')]", "xpath:link"],
+        ["xpath=//a[@id='cards-overview-index']", "xpath:attributes"],
+        ["xpath=//li[@id='cards']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cards')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "131be1b1-0dba-4ee8-b31c-00cd57d2a3ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=#card-details-ownbank-10068 .card-set-pin > .link-title",
+      "targets": [
+        ["css=#card-details-ownbank-10068 .card-set-pin > .link-title", "css:finder"],
+        ["xpath=//div[@id='card-details-ownbank-10068']/div[2]/div[2]/div/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Изменить ПИН-код')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2acfc66c-aa42-4e95-8849-d057db339b2c",
+      "comment": "",
+      "command": "click",
+      "target": "id=calculator-button-1",
+      "targets": [
+        ["id=calculator-button-1", "id"],
+        ["css=#calculator-button-1", "css:finder"],
+        ["xpath=//input[@id='calculator-button-1']", "xpath:attributes"],
+        ["xpath=//form[@id='set-pin-form']/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa022135-3efb-49ad-bf31-4c21189f734b",
+      "comment": "",
+      "command": "click",
+      "target": "id=calculator-button-2",
+      "targets": [
+        ["id=calculator-button-2", "id"],
+        ["css=#calculator-button-2", "css:finder"],
+        ["xpath=//input[@id='calculator-button-2']", "xpath:attributes"],
+        ["xpath=//form[@id='set-pin-form']/div[3]/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd627f24-ee63-44b6-8a68-a6e236ce3093",
+      "comment": "",
+      "command": "click",
+      "target": "id=calculator-button-3",
+      "targets": [
+        ["id=calculator-button-3", "id"],
+        ["css=#calculator-button-3", "css:finder"],
+        ["xpath=//input[@id='calculator-button-3']", "xpath:attributes"],
+        ["xpath=//form[@id='set-pin-form']/div[3]/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de832c2b-0c8f-4702-8757-4d473547fd89",
+      "comment": "",
+      "command": "click",
+      "target": "id=calculator-button-5",
+      "targets": [
+        ["id=calculator-button-5", "id"],
+        ["css=#calculator-button-5", "css:finder"],
+        ["xpath=//input[@id='calculator-button-5']", "xpath:attributes"],
+        ["xpath=//form[@id='set-pin-form']/div[3]/div[2]/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01239f34-c85e-43e6-adb1-6fe805d31063",
+      "comment": "",
+      "command": "click",
+      "target": "id=set-pin",
+      "targets": [
+        ["id=set-pin", "id"],
+        ["css=#set-pin", "css:finder"],
+        ["xpath=//button[@id='set-pin']", "xpath:attributes"],
+        ["xpath=//form[@id='set-pin-form']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Изменить ПИН-код')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5ebc7f9-876c-4720-bf3b-cb734c471a9d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "9999a972-2219-41e1-8459-108320059a4c",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm",
+      "targets": [
+        ["id=confirm", "id"],
+        ["css=#confirm", "css:finder"],
+        ["xpath=//button[@id='confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='confirmation-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подтвердить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "59cafac4-df02-41f3-b318-43a465b9297d",
+    "name": "Open LK",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7a09c533-7451-4096-b72e-30fb3de899f0"]
+  }, {
+    "id": "8923c3e6-d0c7-41c6-bb10-5995fc6f7edf",
+    "name": "Smena Pin",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://idemo.bspb.ru/"],
+  "plugins": []
+}
